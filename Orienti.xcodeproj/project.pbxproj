@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2D4AD426FFA52D004D20EF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA2D4AD326FFA52D004D20EF /* README.md */; };
+		AA2D4AD626FFA53E004D20EF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AA2D4AD526FFA53E004D20EF /* .gitignore */; };
 		AA5A798826FF2B69006980ED /* OrientiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A798726FF2B69006980ED /* OrientiApp.swift */; };
-		AA5A798A26FF2B69006980ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A798926FF2B69006980ED /* ContentView.swift */; };
+		AA5A798A26FF2B69006980ED /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A798926FF2B69006980ED /* IntroView.swift */; };
 		AA5A798C26FF2B6B006980ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5A798B26FF2B6B006980ED /* Assets.xcassets */; };
 		AA5A798F26FF2B6B006980ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5A798E26FF2B6B006980ED /* Preview Assets.xcassets */; };
+		AAC187AF26FF97430062741A /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC187AE26FF97430062741A /* Appearance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA2D4AD326FFA52D004D20EF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AA2D4AD526FFA53E004D20EF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AA5A798426FF2B69006980ED /* Orienti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orienti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5A798726FF2B69006980ED /* OrientiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientiApp.swift; sourceTree = "<group>"; };
-		AA5A798926FF2B69006980ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA5A798926FF2B69006980ED /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		AA5A798B26FF2B6B006980ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA5A798E26FF2B6B006980ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAC187AE26FF97430062741A /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +38,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA2D4ACF26FFA433004D20EF /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		AA2D4AD026FFA439004D20EF /* Trainer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trainer;
+			sourceTree = "<group>";
+		};
+		AA2D4AD126FFA467004D20EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A798926FF2B69006980ED /* IntroView.swift */,
+				AA2D4ACF26FFA433004D20EF /* Runner */,
+				AA2D4AD026FFA439004D20EF /* Trainer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA2D4AD226FFA496004D20EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A798B26FF2B6B006980ED /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		AA5A797B26FF2B69006980ED = {
 			isa = PBXGroup;
 			children = (
+				AA2D4AD526FFA53E004D20EF /* .gitignore */,
+				AA2D4AD326FFA52D004D20EF /* README.md */,
 				AA5A798626FF2B69006980ED /* Orienti */,
 				AA5A798526FF2B69006980ED /* Products */,
 			);
@@ -52,8 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				AA5A798726FF2B69006980ED /* OrientiApp.swift */,
-				AA5A798926FF2B69006980ED /* ContentView.swift */,
-				AA5A798B26FF2B6B006980ED /* Assets.xcassets */,
+				AAC187AE26FF97430062741A /* Appearance.swift */,
+				AA2D4AD126FFA467004D20EF /* Views */,
+				AA2D4AD226FFA496004D20EF /* Resources */,
 				AA5A798D26FF2B6B006980ED /* Preview Content */,
 			);
 			path = Orienti;
@@ -125,6 +166,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2D4AD626FFA53E004D20EF /* .gitignore in Resources */,
+				AA2D4AD426FFA52D004D20EF /* README.md in Resources */,
 				AA5A798F26FF2B6B006980ED /* Preview Assets.xcassets in Resources */,
 				AA5A798C26FF2B6B006980ED /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA5A798A26FF2B69006980ED /* ContentView.swift in Sources */,
+				AA5A798A26FF2B69006980ED /* IntroView.swift in Sources */,
 				AA5A798826FF2B69006980ED /* OrientiApp.swift in Sources */,
+				AAC187AF26FF97430062741A /* Appearance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +315,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Orienti/Preview Content\"";
 				DEVELOPMENT_TEAM = TE6CB2TP2X;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -283,6 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.0.1;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = app.orienti.Orienti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -301,6 +347,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Orienti/Preview Content\"";
 				DEVELOPMENT_TEAM = TE6CB2TP2X;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -313,6 +360,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.0.1;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = app.orienti.Orienti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
