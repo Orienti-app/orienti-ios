@@ -9,7 +9,7 @@ import Foundation
 
 struct RunDTO: Codable {
     let id: UUID
-    let routeId: UUID
+    let trackId: UUID
     let startedAt: Date
     let finishedAt: Date
     let runner: UserDTO
@@ -29,7 +29,7 @@ struct RunDTOMapper: DTOMapper {
         
         return Run(
             id: dto.id,
-            routeId: dto.routeId,
+            trackId: dto.trackId,
             startedAt: dto.startedAt,
             finishedAt: dto.finishedAt,
             runner: runner,
@@ -46,7 +46,7 @@ struct RunDTOMapper: DTOMapper {
         
         return RunDTO(
             id: obj.id,
-            routeId: obj.routeId,
+            trackId: obj.trackId,
             startedAt: obj.startedAt,
             finishedAt: obj.finishedAt,
             runner: runner,

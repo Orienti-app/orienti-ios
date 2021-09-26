@@ -9,15 +9,15 @@ import Foundation
 
 class Run {
     let id: UUID
-    let routeId: UUID
+    let trackId: UUID
     let startedAt: Date
     let finishedAt: Date
     let runner: Runner
     let controlPoints: [ControlPointInstance]
     
-    init(id: UUID, routeId: UUID, startedAt: Date, finishedAt: Date, runner: Runner, controlPoints: [ControlPointInstance]) {
+    init(id: UUID, trackId: UUID, startedAt: Date, finishedAt: Date, runner: Runner, controlPoints: [ControlPointInstance]) {
         self.id = id
-        self.routeId = routeId
+        self.trackId = trackId
         self.startedAt = startedAt
         self.finishedAt = finishedAt
         self.runner = runner
