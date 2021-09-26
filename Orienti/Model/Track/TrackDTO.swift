@@ -10,8 +10,8 @@ import Foundation
 struct TrackDTO: Codable {
     let id: UUID
     let name: String
-    let description: String
     let controlPoints: [ControlPointDTO]
+    let updatedAt: Date
 }
 
 struct TrackDTOMapper: DTOMapper {
@@ -26,8 +26,8 @@ struct TrackDTOMapper: DTOMapper {
         return Track(
             id: dto.id,
             name: dto.name,
-            description: dto.description,
-            controlPoints: controlPoints
+            controlPoints: controlPoints,
+            updatedAt: dto.updatedAt
         )
     }
     
@@ -39,8 +39,8 @@ struct TrackDTOMapper: DTOMapper {
         return TrackDTO(
             id: obj.id,
             name: obj.name,
-            description: obj.description,
-            controlPoints: controlPoints
+            controlPoints: controlPoints,
+            updatedAt: obj.updatedAt
         )
     }
 }

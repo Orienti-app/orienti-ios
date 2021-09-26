@@ -10,13 +10,13 @@ import Foundation
 class Track {
     let id: UUID
     let name: String
-    let description: String
     let controlPoints: [ControlPoint]
+    let updatedAt: Date
     
-    init(id: UUID, name: String, description: String, controlPoints: [ControlPoint]) {
+    init(id: UUID, name: String, controlPoints: [ControlPoint], updatedAt: Date) {
         self.id = id
         self.name = name
-        self.description = description
         self.controlPoints = controlPoints
+        self.updatedAt = updatedAt
     }
 }
