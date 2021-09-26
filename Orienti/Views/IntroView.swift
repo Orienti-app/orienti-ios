@@ -9,11 +9,16 @@ import SwiftUI
 
 struct IntroView: View {
     var body: some View {
-        VStack {
-            Spacer()
-            Group {
-                Button {
-                    print("runner tapped")
+        NavigationView {
+            VStack {
+                Image("orienti-logo")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .clipShape(Circle())
+                    .frame(width: 256.0, height: 256.0)
+                Spacer()
+                NavigationLink {
+                    RegisterUserView(choice: .runner)
                 } label: {
                     Text("I am runner")
                         .foregroundColor(.black)
@@ -21,9 +26,8 @@ struct IntroView: View {
                         .background(Appearance.Colors.primary)
                         .cornerRadius(5)
                 }.padding()
-                
-                Button {
-                    print("trainer tapped")
+                NavigationLink {
+                    RegisterUserView(choice: .trainer)
                 } label: {
                     Text("I am trainer")
                         .foregroundColor(.black)
