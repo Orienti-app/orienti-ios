@@ -11,7 +11,7 @@ struct UserDTO: Codable {
     let id: UUID
     let teamId: UUID?
     let name: String
-    let surname: String
+    let surname: String?
     let email: String?
 }
 
@@ -22,16 +22,16 @@ struct UserDTOMapper: DTOMapper {
     static func map(_ dto: UserDTO) -> User? {
         var user: User?
         
-        if let teamId = dto.teamId, let email = dto.email {
+        if let surname = dto.surname, let teamId = dto.teamId, let email = dto.email {
             user = Trainer(
                 id: dto.id,
                 name: dto.name,
-                surname: dto.surname,
+                surname: surname,
                 teamId: teamId,
                 email: email
             )
         } else {
-            user = Runner(id: dto.id, name: dto.name, surname: dto.surname)
+            user = Runner(id: dto.id, name: dto.name)
         }
         
         return user
@@ -46,7 +46,7 @@ struct UserDTOMapper: DTOMapper {
                 id: obj.id,
                 teamId: nil,
                 name: obj.name,
-                surname: obj.surname,
+                surname: nil,
                 email: nil
             )
         } else if obj is Trainer {

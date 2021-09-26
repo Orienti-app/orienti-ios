@@ -8,12 +8,14 @@
 import Foundation
 
 class Trainer: User {
+    let surname: String
     let teamId: UUID
     let email: String
     
     init(id: UUID, name: String, surname: String, teamId: UUID, email: String) {
+        self.surname = surname
         self.teamId = teamId
         self.email = email
-        super.init(id: id, name: name, surname: surname)
+        super.init(id: id, name: name)
     }
 }
