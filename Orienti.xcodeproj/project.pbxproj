@@ -7,8 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA19FBEE27006B0500694F3C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FBED27006B0500694F3C /* Configuration.swift */; };
+		AA19FBF127006B5100694F3C /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FBF027006B5100694F3C /* ApiEndpoint.swift */; };
+		AA19FBF327006B8100694F3C /* RequestParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FBF227006B8100694F3C /* RequestParams.swift */; };
+		AA19FBF527006C3900694F3C /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FBF427006C3900694F3C /* ApiRequest.swift */; };
+		AA19FBF827006C6A00694F3C /* SingleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FBF727006C6A00694F3C /* SingleResponse.swift */; };
+		AA19FBFA27006C8C00694F3C /* PaginationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FBF927006C8C00694F3C /* PaginationResponse.swift */; };
+		AA19FBFC27006CA900694F3C /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FBFB27006CA900694F3C /* ErrorResponse.swift */; };
+		AA19FBFE27006CC000694F3C /* ValidationErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FBFD27006CC000694F3C /* ValidationErrorResponse.swift */; };
+		AA19FC0127006D6300694F3C /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC0027006D6300694F3C /* URL+Extensions.swift */; };
+		AA19FC0327006D9000694F3C /* URLSession+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC0227006D9000694F3C /* URLSession+Extensions.swift */; };
+		AA19FC0627006E9200694F3C /* SyncData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC0527006E9200694F3C /* SyncData.swift */; };
+		AA19FC0827006F0500694F3C /* CreateToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC0727006F0500694F3C /* CreateToken.swift */; };
+		AA19FC0A2700713600694F3C /* UserDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC092700713600694F3C /* UserDTO.swift */; };
+		AA19FC0C2700715900694F3C /* DTOMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC0B2700715900694F3C /* DTOMapper.swift */; };
+		AA19FC12270073F600694F3C /* ControlPointDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC11270073F600694F3C /* ControlPointDTO.swift */; };
+		AA19FC142700752E00694F3C /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC132700752E00694F3C /* Track.swift */; };
+		AA19FC162700753900694F3C /* TrackDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC152700753900694F3C /* TrackDTO.swift */; };
+		AA19FC18270077B200694F3C /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC17270077B200694F3C /* Training.swift */; };
+		AA19FC1A270077BE00694F3C /* TrainingDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC19270077BE00694F3C /* TrainingDTO.swift */; };
+		AA19FC1C2700797300694F3C /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC1B2700797300694F3C /* Trainer.swift */; };
+		AA19FC1E2700798500694F3C /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC1D2700798500694F3C /* Runner.swift */; };
+		AA19FC2127008C4C00694F3C /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC2027008C4C00694F3C /* Run.swift */; };
+		AA19FC2327008C6100694F3C /* RunDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC2227008C6100694F3C /* RunDTO.swift */; };
+		AA19FC2627008D0700694F3C /* ControlPointInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC2527008D0700694F3C /* ControlPointInstance.swift */; };
+		AA19FC2827008D1400694F3C /* ControlPointInstanceDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19FC2727008D1400694F3C /* ControlPointInstanceDTO.swift */; };
 		AA2D4AD426FFA52D004D20EF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA2D4AD326FFA52D004D20EF /* README.md */; };
 		AA2D4AD626FFA53E004D20EF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AA2D4AD526FFA53E004D20EF /* .gitignore */; };
+		AA2D4AD826FFA885004D20EF /* RegisterUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2D4AD726FFA885004D20EF /* RegisterUserView.swift */; };
+		AA2D4ADD26FFBA68004D20EF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2D4ADC26FFBA68004D20EF /* ModelData.swift */; };
+		AA2D4AE026FFBAC6004D20EF /* UserMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2D4ADF26FFBAC6004D20EF /* UserMode.swift */; };
+		AA2D4AE226FFD013004D20EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2D4AE126FFD013004D20EF /* User.swift */; };
+		AA2D4AE426FFDE26004D20EF /* ControlPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2D4AE326FFDE26004D20EF /* ControlPoint.swift */; };
 		AA5A798826FF2B69006980ED /* OrientiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A798726FF2B69006980ED /* OrientiApp.swift */; };
 		AA5A798A26FF2B69006980ED /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A798926FF2B69006980ED /* IntroView.swift */; };
 		AA5A798C26FF2B6B006980ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5A798B26FF2B6B006980ED /* Assets.xcassets */; };
@@ -17,8 +47,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA19FBED27006B0500694F3C /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		AA19FBF027006B5100694F3C /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		AA19FBF227006B8100694F3C /* RequestParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParams.swift; sourceTree = "<group>"; };
+		AA19FBF427006C3900694F3C /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		AA19FBF727006C6A00694F3C /* SingleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponse.swift; sourceTree = "<group>"; };
+		AA19FBF927006C8C00694F3C /* PaginationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationResponse.swift; sourceTree = "<group>"; };
+		AA19FBFB27006CA900694F3C /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		AA19FBFD27006CC000694F3C /* ValidationErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationErrorResponse.swift; sourceTree = "<group>"; };
+		AA19FC0027006D6300694F3C /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		AA19FC0227006D9000694F3C /* URLSession+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extensions.swift"; sourceTree = "<group>"; };
+		AA19FC0527006E9200694F3C /* SyncData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncData.swift; sourceTree = "<group>"; };
+		AA19FC0727006F0500694F3C /* CreateToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateToken.swift; sourceTree = "<group>"; };
+		AA19FC092700713600694F3C /* UserDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDTO.swift; sourceTree = "<group>"; };
+		AA19FC0B2700715900694F3C /* DTOMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTOMapper.swift; sourceTree = "<group>"; };
+		AA19FC11270073F600694F3C /* ControlPointDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPointDTO.swift; sourceTree = "<group>"; };
+		AA19FC132700752E00694F3C /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		AA19FC152700753900694F3C /* TrackDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDTO.swift; sourceTree = "<group>"; };
+		AA19FC17270077B200694F3C /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
+		AA19FC19270077BE00694F3C /* TrainingDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingDTO.swift; sourceTree = "<group>"; };
+		AA19FC1B2700797300694F3C /* Trainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+		AA19FC1D2700798500694F3C /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
+		AA19FC2027008C4C00694F3C /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		AA19FC2227008C6100694F3C /* RunDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunDTO.swift; sourceTree = "<group>"; };
+		AA19FC2527008D0700694F3C /* ControlPointInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPointInstance.swift; sourceTree = "<group>"; };
+		AA19FC2727008D1400694F3C /* ControlPointInstanceDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPointInstanceDTO.swift; sourceTree = "<group>"; };
 		AA2D4AD326FFA52D004D20EF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AA2D4AD526FFA53E004D20EF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AA2D4AD726FFA885004D20EF /* RegisterUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserView.swift; sourceTree = "<group>"; };
+		AA2D4ADC26FFBA68004D20EF /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		AA2D4ADF26FFBAC6004D20EF /* UserMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMode.swift; sourceTree = "<group>"; };
+		AA2D4AE126FFD013004D20EF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AA2D4AE326FFDE26004D20EF /* ControlPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPoint.swift; sourceTree = "<group>"; };
 		AA5A798426FF2B69006980ED /* Orienti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orienti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5A798726FF2B69006980ED /* OrientiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientiApp.swift; sourceTree = "<group>"; };
 		AA5A798926FF2B69006980ED /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
@@ -38,6 +98,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA19FBEC27006AAD00694F3C /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				AA19FBF427006C3900694F3C /* ApiRequest.swift */,
+				AA19FBED27006B0500694F3C /* Configuration.swift */,
+				AA19FC0427006E7600694F3C /* Methods */,
+				AA19FBF627006C5200694F3C /* Responses */,
+				AA19FBEF27006B3B00694F3C /* Protocols */,
+				AA19FBFF27006D3E00694F3C /* Extensions */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		AA19FBEF27006B3B00694F3C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AA19FBF027006B5100694F3C /* ApiEndpoint.swift */,
+				AA19FBF227006B8100694F3C /* RequestParams.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AA19FBF627006C5200694F3C /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				AA19FBF727006C6A00694F3C /* SingleResponse.swift */,
+				AA19FBF927006C8C00694F3C /* PaginationResponse.swift */,
+				AA19FBFB27006CA900694F3C /* ErrorResponse.swift */,
+				AA19FBFD27006CC000694F3C /* ValidationErrorResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		AA19FBFF27006D3E00694F3C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA19FC0027006D6300694F3C /* URL+Extensions.swift */,
+				AA19FC0227006D9000694F3C /* URLSession+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA19FC0427006E7600694F3C /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				AA19FC0527006E9200694F3C /* SyncData.swift */,
+				AA19FC0727006F0500694F3C /* CreateToken.swift */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+		AA19FC0D2700716E00694F3C /* User */ = {
+			isa = PBXGroup;
+			children = (
+				AA2D4AE126FFD013004D20EF /* User.swift */,
+				AA19FC1D2700798500694F3C /* Runner.swift */,
+				AA19FC1B2700797300694F3C /* Trainer.swift */,
+				AA19FC092700713600694F3C /* UserDTO.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		AA19FC0E270073A300694F3C /* ControlPoint */ = {
+			isa = PBXGroup;
+			children = (
+				AA2D4AE326FFDE26004D20EF /* ControlPoint.swift */,
+				AA19FC11270073F600694F3C /* ControlPointDTO.swift */,
+			);
+			path = ControlPoint;
+			sourceTree = "<group>";
+		};
+		AA19FC0F270073B400694F3C /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				AA19FC132700752E00694F3C /* Track.swift */,
+				AA19FC152700753900694F3C /* TrackDTO.swift */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		AA19FC10270073CD00694F3C /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				AA19FC17270077B200694F3C /* Training.swift */,
+				AA19FC19270077BE00694F3C /* TrainingDTO.swift */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		AA19FC1F27008C2E00694F3C /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				AA19FC2027008C4C00694F3C /* Run.swift */,
+				AA19FC2227008C6100694F3C /* RunDTO.swift */,
+			);
+			path = Run;
+			sourceTree = "<group>";
+		};
+		AA19FC2427008CE500694F3C /* ControlPointInstance */ = {
+			isa = PBXGroup;
+			children = (
+				AA19FC2527008D0700694F3C /* ControlPointInstance.swift */,
+				AA19FC2727008D1400694F3C /* ControlPointInstanceDTO.swift */,
+			);
+			path = ControlPointInstance;
+			sourceTree = "<group>";
+		};
 		AA2D4ACF26FFA433004D20EF /* Runner */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				AA5A798926FF2B69006980ED /* IntroView.swift */,
+				AA2D4AD726FFA885004D20EF /* RegisterUserView.swift */,
 				AA2D4ACF26FFA433004D20EF /* Runner */,
 				AA2D4AD026FFA439004D20EF /* Trainer */,
 			);
@@ -68,6 +236,29 @@
 				AA5A798B26FF2B6B006980ED /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA2D4ADB26FFBA4D004D20EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA2D4ADC26FFBA68004D20EF /* ModelData.swift */,
+				AA19FC0B2700715900694F3C /* DTOMapper.swift */,
+				AA19FC0D2700716E00694F3C /* User */,
+				AA19FC0E270073A300694F3C /* ControlPoint */,
+				AA19FC2427008CE500694F3C /* ControlPointInstance */,
+				AA19FC0F270073B400694F3C /* Track */,
+				AA19FC1F27008C2E00694F3C /* Run */,
+				AA19FC10270073CD00694F3C /* Training */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA2D4ADE26FFBAB4004D20EF /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				AA2D4ADF26FFBAC6004D20EF /* UserMode.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		AA5A797B26FF2B69006980ED = {
@@ -94,7 +285,10 @@
 				AA5A798726FF2B69006980ED /* OrientiApp.swift */,
 				AAC187AE26FF97430062741A /* Appearance.swift */,
 				AA2D4AD126FFA467004D20EF /* Views */,
+				AA2D4ADB26FFBA4D004D20EF /* Model */,
+				AA2D4ADE26FFBAB4004D20EF /* Enums */,
 				AA2D4AD226FFA496004D20EF /* Resources */,
+				AA19FBEC27006AAD00694F3C /* ApiClient */,
 				AA5A798D26FF2B6B006980ED /* Preview Content */,
 			);
 			path = Orienti;
@@ -180,9 +374,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA19FC2827008D1400694F3C /* ControlPointInstanceDTO.swift in Sources */,
+				AA19FBF827006C6A00694F3C /* SingleResponse.swift in Sources */,
+				AA2D4AE026FFBAC6004D20EF /* UserMode.swift in Sources */,
+				AA19FBFA27006C8C00694F3C /* PaginationResponse.swift in Sources */,
+				AA19FC1A270077BE00694F3C /* TrainingDTO.swift in Sources */,
+				AA2D4AD826FFA885004D20EF /* RegisterUserView.swift in Sources */,
+				AA19FC0327006D9000694F3C /* URLSession+Extensions.swift in Sources */,
+				AA19FC12270073F600694F3C /* ControlPointDTO.swift in Sources */,
+				AA19FC0A2700713600694F3C /* UserDTO.swift in Sources */,
+				AA19FC0627006E9200694F3C /* SyncData.swift in Sources */,
+				AA19FC1C2700797300694F3C /* Trainer.swift in Sources */,
+				AA19FBFE27006CC000694F3C /* ValidationErrorResponse.swift in Sources */,
+				AA19FBF127006B5100694F3C /* ApiEndpoint.swift in Sources */,
 				AA5A798A26FF2B69006980ED /* IntroView.swift in Sources */,
+				AA19FC1E2700798500694F3C /* Runner.swift in Sources */,
+				AA2D4AE426FFDE26004D20EF /* ControlPoint.swift in Sources */,
+				AA19FC142700752E00694F3C /* Track.swift in Sources */,
+				AA19FC0827006F0500694F3C /* CreateToken.swift in Sources */,
+				AA19FBEE27006B0500694F3C /* Configuration.swift in Sources */,
+				AA19FBF527006C3900694F3C /* ApiRequest.swift in Sources */,
+				AA2D4AE226FFD013004D20EF /* User.swift in Sources */,
 				AA5A798826FF2B69006980ED /* OrientiApp.swift in Sources */,
 				AAC187AF26FF97430062741A /* Appearance.swift in Sources */,
+				AA19FC2327008C6100694F3C /* RunDTO.swift in Sources */,
+				AA19FBF327006B8100694F3C /* RequestParams.swift in Sources */,
+				AA19FC18270077B200694F3C /* Training.swift in Sources */,
+				AA19FC2127008C4C00694F3C /* Run.swift in Sources */,
+				AA19FC2627008D0700694F3C /* ControlPointInstance.swift in Sources */,
+				AA19FC0C2700715900694F3C /* DTOMapper.swift in Sources */,
+				AA19FBFC27006CA900694F3C /* ErrorResponse.swift in Sources */,
+				AA19FC0127006D6300694F3C /* URL+Extensions.swift in Sources */,
+				AA19FC162700753900694F3C /* TrackDTO.swift in Sources */,
+				AA2D4ADD26FFBA68004D20EF /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Orienti/Preview Content\"";
@@ -317,9 +542,11 @@
 				ENABLE_PREVIEWS = YES;
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Orienti/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -333,7 +560,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -342,6 +569,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Orienti/Preview Content\"";
@@ -349,9 +577,11 @@
 				ENABLE_PREVIEWS = YES;
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Orienti/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -365,7 +595,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
