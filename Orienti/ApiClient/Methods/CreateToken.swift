@@ -22,11 +22,9 @@ struct CreateTokenRequest: Codable {
 
 // MARK: - RequestParams Extension
 extension CreateTokenRequest: RequestParams {
-    
     func encode() -> String? {
         return nil
     }
-    
 }
 
 // MARK: - ApiEndpoint Extension
