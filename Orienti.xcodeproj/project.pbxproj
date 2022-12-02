@@ -33,6 +33,14 @@
 		AAEF43C6293A841F004FC2E1 /* UIViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43C5293A841F004FC2E1 /* UIViewStyle.swift */; };
 		AAEF43C8293A8709004FC2E1 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43C7293A8709004FC2E1 /* UIStackView+Extensions.swift */; };
 		AAEF43CA293A888C004FC2E1 /* Resolver+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43C9293A888C004FC2E1 /* Resolver+Extensions.swift */; };
+		AAEF43CD293A922B004FC2E1 /* RunnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43CC293A922B004FC2E1 /* RunnerController.swift */; };
+		AAEF43CF293A9233004FC2E1 /* RunnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43CE293A9233004FC2E1 /* RunnerView.swift */; };
+		AAEF43D1293A923A004FC2E1 /* RunnerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43D0293A923A004FC2E1 /* RunnerVM.swift */; };
+		AAEF43D3293A92BF004FC2E1 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43D2293A92BF004FC2E1 /* AppCoordinator.swift */; };
+		AAEF43D6293A966B004FC2E1 /* AppMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43D5293A966B004FC2E1 /* AppMode.swift */; };
+		AAEF43D9293A97F9004FC2E1 /* TrainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43D8293A97F9004FC2E1 /* TrainerController.swift */; };
+		AAEF43DB293A9802004FC2E1 /* TrainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43DA293A9802004FC2E1 /* TrainerView.swift */; };
+		AAEF43DD293A981B004FC2E1 /* TrainerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43DC293A981B004FC2E1 /* TrainerVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +87,14 @@
 		AAEF43C5293A841F004FC2E1 /* UIViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewStyle.swift; sourceTree = "<group>"; };
 		AAEF43C7293A8709004FC2E1 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
 		AAEF43C9293A888C004FC2E1 /* Resolver+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+Extensions.swift"; sourceTree = "<group>"; };
+		AAEF43CC293A922B004FC2E1 /* RunnerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerController.swift; sourceTree = "<group>"; };
+		AAEF43CE293A9233004FC2E1 /* RunnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerView.swift; sourceTree = "<group>"; };
+		AAEF43D0293A923A004FC2E1 /* RunnerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerVM.swift; sourceTree = "<group>"; };
+		AAEF43D2293A92BF004FC2E1 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		AAEF43D5293A966B004FC2E1 /* AppMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMode.swift; sourceTree = "<group>"; };
+		AAEF43D8293A97F9004FC2E1 /* TrainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerController.swift; sourceTree = "<group>"; };
+		AAEF43DA293A9802004FC2E1 /* TrainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerView.swift; sourceTree = "<group>"; };
+		AAEF43DC293A981B004FC2E1 /* TrainerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +153,7 @@
 			children = (
 				AAB0A166293A574300CEBE73 /* App */,
 				AAEF43BE293A7B52004FC2E1 /* Views */,
+				AAEF43D4293A9656004FC2E1 /* Models */,
 				AAB0A168293A580100CEBE73 /* Scenes */,
 				AAB0A175293A59DA00CEBE73 /* Services */,
 				AAB0A167293A57F300CEBE73 /* Resources */,
@@ -169,6 +186,7 @@
 				AAB0A1262939EE9F00CEBE73 /* AppDelegate.swift */,
 				AAB0A1282939EE9F00CEBE73 /* SceneDelegate.swift */,
 				AAEF43C1293A7DD4004FC2E1 /* AppConstants.swift */,
+				AAEF43D2293A92BF004FC2E1 /* AppCoordinator.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -186,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				AAEF43B9293A7B08004FC2E1 /* Role */,
+				AAEF43CB293A921F004FC2E1 /* Runner */,
+				AAEF43D7293A97DB004FC2E1 /* Trainer */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -252,6 +272,34 @@
 				AAEF43BF293A7B62004FC2E1 /* BaseView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AAEF43CB293A921F004FC2E1 /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF43CC293A922B004FC2E1 /* RunnerController.swift */,
+				AAEF43CE293A9233004FC2E1 /* RunnerView.swift */,
+				AAEF43D0293A923A004FC2E1 /* RunnerVM.swift */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		AAEF43D4293A9656004FC2E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF43D5293A966B004FC2E1 /* AppMode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAEF43D7293A97DB004FC2E1 /* Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF43D8293A97F9004FC2E1 /* TrainerController.swift */,
+				AAEF43DA293A9802004FC2E1 /* TrainerView.swift */,
+				AAEF43DC293A981B004FC2E1 /* TrainerVM.swift */,
+			);
+			path = Trainer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,20 +447,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEF43D1293A923A004FC2E1 /* RunnerVM.swift in Sources */,
+				AAEF43CF293A9233004FC2E1 /* RunnerView.swift in Sources */,
 				AAB0A1272939EE9F00CEBE73 /* AppDelegate.swift in Sources */,
 				AAB0A177293A59EA00CEBE73 /* AlertService.swift in Sources */,
 				AAEF43C2293A7DD4004FC2E1 /* AppConstants.swift in Sources */,
 				AAB0A16F293A596D00CEBE73 /* Bindable.swift in Sources */,
+				AAEF43D3293A92BF004FC2E1 /* AppCoordinator.swift in Sources */,
 				AAB0A171293A597200CEBE73 /* HasCustomView.swift in Sources */,
 				AAEF43CA293A888C004FC2E1 /* Resolver+Extensions.swift in Sources */,
+				AAEF43CD293A922B004FC2E1 /* RunnerController.swift in Sources */,
 				AAEF43B8293A7AFE004FC2E1 /* RoleController.swift in Sources */,
+				AAEF43DB293A9802004FC2E1 /* TrainerView.swift in Sources */,
 				AAEF43C4293A7E01004FC2E1 /* UIColor+Extensions.swift in Sources */,
 				AAB0A174293A59B600CEBE73 /* String+Extensions.swift in Sources */,
 				AAB0A1292939EE9F00CEBE73 /* SceneDelegate.swift in Sources */,
 				AAEF43C0293A7B62004FC2E1 /* BaseView.swift in Sources */,
 				AAEF43C8293A8709004FC2E1 /* UIStackView+Extensions.swift in Sources */,
 				AAEF43C6293A841F004FC2E1 /* UIViewStyle.swift in Sources */,
+				AAEF43D6293A966B004FC2E1 /* AppMode.swift in Sources */,
 				AAEF43BB293A7B19004FC2E1 /* RoleView.swift in Sources */,
+				AAEF43DD293A981B004FC2E1 /* TrainerVM.swift in Sources */,
+				AAEF43D9293A97F9004FC2E1 /* TrainerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

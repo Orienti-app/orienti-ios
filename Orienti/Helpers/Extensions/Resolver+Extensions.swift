@@ -10,6 +10,8 @@ import Resolver
 extension Resolver: ResolverRegistering {
     public static func registerAllServices() {
         // ViewModels
+        register { RunnerVM() }
+        register { TrainerVM() }
         // Services
         // Repositories
         // Managers

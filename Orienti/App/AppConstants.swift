@@ -31,3 +31,9 @@ enum Styles {
             }
     }
 }
+
+enum Keys {
+    static let appMode = "appMode"
+    static let runnerMode = "runnerMode"
+    static let trainerMode = "trainerMode"
+}

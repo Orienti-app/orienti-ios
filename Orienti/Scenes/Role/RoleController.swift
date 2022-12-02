@@ -38,10 +38,10 @@ final class RoleController: UIViewController, HasCustomView {
     // MARK: - Objc methods
 
     @objc private func runnerButtonPressed(sender: UIButton) {
-        print("runnerButtonPressed")
+        AppCoordinator.startRunnerMode()
     }
 
     @objc private func trainerButtonPressed(sender: UIButton) {
-        print("trainerButtonPressed")
+        AppCoordinator.startTrainerMode()
     }
 }

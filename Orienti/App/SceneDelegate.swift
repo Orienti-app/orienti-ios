@@ -37,8 +37,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     private func _configureRootViewController() -> UIViewController {
-        let mainController = RoleController()
+        guard let appModeKey = UserDefaults.standard.string(forKey: Keys.appMode), let appMode = AppMode(rawValue: appModeKey) else {
+            return RoleController()
+        }
 
-        return mainController
+        switch appMode {
+        case .runner:
+            return RunnerController()
+        case .trainer:
+            return TrainerController()
+        }
     }
 }
