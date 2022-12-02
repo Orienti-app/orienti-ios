@@ -25,7 +25,7 @@
 		AAB0A180293A5AF400CEBE73 /* ErrorHandler in Frameworks */ = {isa = PBXBuildFile; productRef = AAB0A17F293A5AF400CEBE73 /* ErrorHandler */; };
 		AAB0A183293A5B1C00CEBE73 /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = AAB0A182293A5B1C00CEBE73 /* Logger */; };
 		AAB0A185293A5DA700CEBE73 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A184293A5DA700CEBE73 /* .gitignore */; };
-		AAB0A187293A5E9500CEBE73 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A186293A5E9500CEBE73 /* readme.md */; };
+		AAB0A187293A5E9500CEBE73 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A186293A5E9500CEBE73 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,7 @@
 		AAB0A173293A59B600CEBE73 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		AAB0A176293A59EA00CEBE73 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 		AAB0A184293A5DA700CEBE73 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		AAB0A186293A5E9500CEBE73 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		AAB0A186293A5E9500CEBE73 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		AAB0A11A2939EE9F00CEBE73 = {
 			isa = PBXGroup;
 			children = (
-				AAB0A186293A5E9500CEBE73 /* readme.md */,
+				AAB0A186293A5E9500CEBE73 /* README.md */,
 				AAB0A184293A5DA700CEBE73 /* .gitignore */,
 				AAB0A1252939EE9F00CEBE73 /* Orienti */,
 				AAB0A13C2939EEA000CEBE73 /* OrientiTests */,
@@ -336,7 +336,7 @@
 				AAB0A185293A5DA700CEBE73 /* .gitignore in Resources */,
 				AAB0A1332939EEA000CEBE73 /* LaunchScreen.storyboard in Resources */,
 				AAB0A16C293A592300CEBE73 /* Localizable.strings in Resources */,
-				AAB0A187293A5E9500CEBE73 /* readme.md in Resources */,
+				AAB0A187293A5E9500CEBE73 /* README.md in Resources */,
 				AAB0A1302939EEA000CEBE73 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
