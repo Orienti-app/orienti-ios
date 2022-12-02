@@ -37,7 +37,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     private func _configureRootViewController() -> UIViewController {
-        let mainController = ViewController()
+        let mainController = RoleController()
 
         return mainController
     }
