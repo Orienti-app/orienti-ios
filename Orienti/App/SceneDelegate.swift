@@ -43,9 +43,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         switch appMode {
         case .runner:
-            return RunnerController()
+            return UINavigationController(rootViewController: RunnerController())
         case .trainer:
-            return TrainerController()
+            return UINavigationController(rootViewController: TrainerController())
         }
     }
 }

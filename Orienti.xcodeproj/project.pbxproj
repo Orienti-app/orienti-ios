@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA50128B293AB70700CC7349 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA50128A293AB70700CC7349 /* VideoView.swift */; };
 		AAB0A1272939EE9F00CEBE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A1262939EE9F00CEBE73 /* AppDelegate.swift */; };
 		AAB0A1292939EE9F00CEBE73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A1282939EE9F00CEBE73 /* SceneDelegate.swift */; };
 		AAB0A1302939EEA000CEBE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A12F2939EEA000CEBE73 /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA50128A293AB70700CC7349 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		AAB0A1232939EE9F00CEBE73 /* Orienti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orienti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB0A1262939EE9F00CEBE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAB0A1282939EE9F00CEBE73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				AAEF43BF293A7B62004FC2E1 /* BaseView.swift */,
+				AA50128A293AB70700CC7349 /* VideoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				AAB0A177293A59EA00CEBE73 /* AlertService.swift in Sources */,
 				AAEF43C2293A7DD4004FC2E1 /* AppConstants.swift in Sources */,
 				AAB0A16F293A596D00CEBE73 /* Bindable.swift in Sources */,
+				AA50128B293AB70700CC7349 /* VideoView.swift in Sources */,
 				AAEF43D3293A92BF004FC2E1 /* AppCoordinator.swift in Sources */,
 				AAB0A171293A597200CEBE73 /* HasCustomView.swift in Sources */,
 				AAEF43CA293A888C004FC2E1 /* Resolver+Extensions.swift in Sources */,

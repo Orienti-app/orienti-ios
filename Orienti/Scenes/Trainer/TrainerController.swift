@@ -33,7 +33,22 @@ final class TrainerController: UIViewController, HasCustomView {
 
     // MARK: - Private methods
 
-    private func _setupController() {}
+    private func _setupController() {
+        navigationItem.title = "Trainer".localized
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "ellipsis.circle"), style: .plain, target: self, action: nil)
+        navigationItem.rightBarButtonItem?.menu = UIMenu(children: [
+            UIAction(title: "New run".localized) { _ in
+
+            },
+            UIAction(title: "Change name".localized) { _ in
+
+            },
+            UIAction(title: "Change mode".localized) { _ in
+                AppCoordinator.startSelectMode()
+            }
+        ])
+    }
 
     // MARK: - Objc methods
 }
