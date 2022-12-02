@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB0A1272939EE9F00CEBE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A1262939EE9F00CEBE73 /* AppDelegate.swift */; };
+		AAB0A1292939EE9F00CEBE73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A1282939EE9F00CEBE73 /* SceneDelegate.swift */; };
+		AAB0A12B2939EE9F00CEBE73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A12A2939EE9F00CEBE73 /* ViewController.swift */; };
+		AAB0A1302939EEA000CEBE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A12F2939EEA000CEBE73 /* Assets.xcassets */; };
+		AAB0A1332939EEA000CEBE73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A1312939EEA000CEBE73 /* LaunchScreen.storyboard */; };
+		AAB0A13E2939EEA000CEBE73 /* OrientiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A13D2939EEA000CEBE73 /* OrientiTests.swift */; };
+		AAB0A1482939EEA000CEBE73 /* OrientiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A1472939EEA000CEBE73 /* OrientiUITests.swift */; };
+		AAB0A14A2939EEA000CEBE73 /* OrientiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A1492939EEA000CEBE73 /* OrientiUITestsLaunchTests.swift */; };
+		AAB0A16C293A592300CEBE73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A16B293A592300CEBE73 /* Localizable.strings */; };
+		AAB0A16F293A596D00CEBE73 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A16E293A596D00CEBE73 /* Bindable.swift */; };
+		AAB0A171293A597200CEBE73 /* HasCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A170293A597200CEBE73 /* HasCustomView.swift */; };
+		AAB0A174293A59B600CEBE73 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A173293A59B600CEBE73 /* String+Extensions.swift */; };
+		AAB0A177293A59EA00CEBE73 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A176293A59EA00CEBE73 /* AlertService.swift */; };
+		AAB0A17A293A5A6E00CEBE73 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AAB0A179293A5A6E00CEBE73 /* SnapKit */; };
+		AAB0A17D293A5AE500CEBE73 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = AAB0A17C293A5AE500CEBE73 /* Resolver */; };
+		AAB0A180293A5AF400CEBE73 /* ErrorHandler in Frameworks */ = {isa = PBXBuildFile; productRef = AAB0A17F293A5AF400CEBE73 /* ErrorHandler */; };
+		AAB0A183293A5B1C00CEBE73 /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = AAB0A182293A5B1C00CEBE73 /* Logger */; };
+		AAB0A185293A5DA700CEBE73 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A184293A5DA700CEBE73 /* .gitignore */; };
+		AAB0A187293A5E9500CEBE73 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A186293A5E9500CEBE73 /* readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB0A13A2939EEA000CEBE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB0A11B2939EE9F00CEBE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB0A1222939EE9F00CEBE73;
+			remoteInfo = Orienti;
+		};
+		AAB0A1442939EEA000CEBE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB0A11B2939EE9F00CEBE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB0A1222939EE9F00CEBE73;
+			remoteInfo = Orienti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAB0A1232939EE9F00CEBE73 /* Orienti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orienti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB0A1262939EE9F00CEBE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAB0A1282939EE9F00CEBE73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAB0A12A2939EE9F00CEBE73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAB0A12F2939EEA000CEBE73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAB0A1322939EEA000CEBE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAB0A1342939EEA000CEBE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB0A1392939EEA000CEBE73 /* OrientiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrientiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB0A13D2939EEA000CEBE73 /* OrientiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientiTests.swift; sourceTree = "<group>"; };
+		AAB0A1432939EEA000CEBE73 /* OrientiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrientiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB0A1472939EEA000CEBE73 /* OrientiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientiUITests.swift; sourceTree = "<group>"; };
+		AAB0A1492939EEA000CEBE73 /* OrientiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAB0A16B293A592300CEBE73 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		AAB0A16E293A596D00CEBE73 /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		AAB0A170293A597200CEBE73 /* HasCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasCustomView.swift; sourceTree = "<group>"; };
+		AAB0A173293A59B600CEBE73 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		AAB0A176293A59EA00CEBE73 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		AAB0A184293A5DA700CEBE73 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AAB0A186293A5E9500CEBE73 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB0A1202939EE9F00CEBE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0A17D293A5AE500CEBE73 /* Resolver in Frameworks */,
+				AAB0A180293A5AF400CEBE73 /* ErrorHandler in Frameworks */,
+				AAB0A183293A5B1C00CEBE73 /* Logger in Frameworks */,
+				AAB0A17A293A5A6E00CEBE73 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0A1362939EEA000CEBE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0A1402939EEA000CEBE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB0A11A2939EE9F00CEBE73 = {
+			isa = PBXGroup;
+			children = (
+				AAB0A186293A5E9500CEBE73 /* readme.md */,
+				AAB0A184293A5DA700CEBE73 /* .gitignore */,
+				AAB0A1252939EE9F00CEBE73 /* Orienti */,
+				AAB0A13C2939EEA000CEBE73 /* OrientiTests */,
+				AAB0A1462939EEA000CEBE73 /* OrientiUITests */,
+				AAB0A1242939EE9F00CEBE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB0A1242939EE9F00CEBE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A1232939EE9F00CEBE73 /* Orienti.app */,
+				AAB0A1392939EEA000CEBE73 /* OrientiTests.xctest */,
+				AAB0A1432939EEA000CEBE73 /* OrientiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB0A1252939EE9F00CEBE73 /* Orienti */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A166293A574300CEBE73 /* App */,
+				AAB0A168293A580100CEBE73 /* Scenes */,
+				AAB0A175293A59DA00CEBE73 /* Services */,
+				AAB0A167293A57F300CEBE73 /* Resources */,
+				AAB0A16D293A595800CEBE73 /* Helpers */,
+				AAB0A169293A580E00CEBE73 /* Supporting Files */,
+			);
+			path = Orienti;
+			sourceTree = "<group>";
+		};
+		AAB0A13C2939EEA000CEBE73 /* OrientiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A13D2939EEA000CEBE73 /* OrientiTests.swift */,
+			);
+			path = OrientiTests;
+			sourceTree = "<group>";
+		};
+		AAB0A1462939EEA000CEBE73 /* OrientiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A1472939EEA000CEBE73 /* OrientiUITests.swift */,
+				AAB0A1492939EEA000CEBE73 /* OrientiUITestsLaunchTests.swift */,
+			);
+			path = OrientiUITests;
+			sourceTree = "<group>";
+		};
+		AAB0A166293A574300CEBE73 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A1262939EE9F00CEBE73 /* AppDelegate.swift */,
+				AAB0A1282939EE9F00CEBE73 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AAB0A167293A57F300CEBE73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A12F2939EEA000CEBE73 /* Assets.xcassets */,
+				AAB0A16A293A591100CEBE73 /* Translations */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AAB0A168293A580100CEBE73 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A12A2939EE9F00CEBE73 /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		AAB0A169293A580E00CEBE73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A1342939EEA000CEBE73 /* Info.plist */,
+				AAB0A1312939EEA000CEBE73 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAB0A16A293A591100CEBE73 /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A16B293A592300CEBE73 /* Localizable.strings */,
+			);
+			path = Translations;
+			sourceTree = "<group>";
+		};
+		AAB0A16D293A595800CEBE73 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A16E293A596D00CEBE73 /* Bindable.swift */,
+				AAB0A170293A597200CEBE73 /* HasCustomView.swift */,
+				AAB0A172293A59A100CEBE73 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AAB0A172293A59A100CEBE73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A173293A59B600CEBE73 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AAB0A175293A59DA00CEBE73 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0A176293A59EA00CEBE73 /* AlertService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB0A1222939EE9F00CEBE73 /* Orienti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB0A14D2939EEA000CEBE73 /* Build configuration list for PBXNativeTarget "Orienti" */;
+			buildPhases = (
+				AAB0A11F2939EE9F00CEBE73 /* Sources */,
+				AAB0A1202939EE9F00CEBE73 /* Frameworks */,
+				AAB0A1212939EE9F00CEBE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orienti;
+			packageProductDependencies = (
+				AAB0A179293A5A6E00CEBE73 /* SnapKit */,
+				AAB0A17C293A5AE500CEBE73 /* Resolver */,
+				AAB0A17F293A5AF400CEBE73 /* ErrorHandler */,
+				AAB0A182293A5B1C00CEBE73 /* Logger */,
+			);
+			productName = Orienti;
+			productReference = AAB0A1232939EE9F00CEBE73 /* Orienti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAB0A1382939EEA000CEBE73 /* OrientiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB0A1502939EEA000CEBE73 /* Build configuration list for PBXNativeTarget "OrientiTests" */;
+			buildPhases = (
+				AAB0A1352939EEA000CEBE73 /* Sources */,
+				AAB0A1362939EEA000CEBE73 /* Frameworks */,
+				AAB0A1372939EEA000CEBE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB0A13B2939EEA000CEBE73 /* PBXTargetDependency */,
+			);
+			name = OrientiTests;
+			productName = OrientiTests;
+			productReference = AAB0A1392939EEA000CEBE73 /* OrientiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAB0A1422939EEA000CEBE73 /* OrientiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB0A1532939EEA000CEBE73 /* Build configuration list for PBXNativeTarget "OrientiUITests" */;
+			buildPhases = (
+				AAB0A13F2939EEA000CEBE73 /* Sources */,
+				AAB0A1402939EEA000CEBE73 /* Frameworks */,
+				AAB0A1412939EEA000CEBE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB0A1452939EEA000CEBE73 /* PBXTargetDependency */,
+			);
+			name = OrientiUITests;
+			productName = OrientiUITests;
+			productReference = AAB0A1432939EEA000CEBE73 /* OrientiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB0A11B2939EE9F00CEBE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AAB0A1222939EE9F00CEBE73 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AAB0A1382939EEA000CEBE73 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AAB0A1222939EE9F00CEBE73;
+					};
+					AAB0A1422939EEA000CEBE73 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AAB0A1222939EE9F00CEBE73;
+					};
+				};
+			};
+			buildConfigurationList = AAB0A11E2939EE9F00CEBE73 /* Build configuration list for PBXProject "Orienti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB0A11A2939EE9F00CEBE73;
+			packageReferences = (
+				AAB0A178293A5A6E00CEBE73 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AAB0A17B293A5AE500CEBE73 /* XCRemoteSwiftPackageReference "Resolver" */,
+				AAB0A17E293A5AF400CEBE73 /* XCRemoteSwiftPackageReference "swift-error-handler" */,
+				AAB0A181293A5B1C00CEBE73 /* XCRemoteSwiftPackageReference "swift-logger" */,
+			);
+			productRefGroup = AAB0A1242939EE9F00CEBE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB0A1222939EE9F00CEBE73 /* Orienti */,
+				AAB0A1382939EEA000CEBE73 /* OrientiTests */,
+				AAB0A1422939EEA000CEBE73 /* OrientiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB0A1212939EE9F00CEBE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0A185293A5DA700CEBE73 /* .gitignore in Resources */,
+				AAB0A1332939EEA000CEBE73 /* LaunchScreen.storyboard in Resources */,
+				AAB0A16C293A592300CEBE73 /* Localizable.strings in Resources */,
+				AAB0A187293A5E9500CEBE73 /* readme.md in Resources */,
+				AAB0A1302939EEA000CEBE73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0A1372939EEA000CEBE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0A1412939EEA000CEBE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB0A11F2939EE9F00CEBE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0A12B2939EE9F00CEBE73 /* ViewController.swift in Sources */,
+				AAB0A1272939EE9F00CEBE73 /* AppDelegate.swift in Sources */,
+				AAB0A177293A59EA00CEBE73 /* AlertService.swift in Sources */,
+				AAB0A16F293A596D00CEBE73 /* Bindable.swift in Sources */,
+				AAB0A171293A597200CEBE73 /* HasCustomView.swift in Sources */,
+				AAB0A174293A59B600CEBE73 /* String+Extensions.swift in Sources */,
+				AAB0A1292939EE9F00CEBE73 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0A1352939EEA000CEBE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0A13E2939EEA000CEBE73 /* OrientiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0A13F2939EEA000CEBE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0A1482939EEA000CEBE73 /* OrientiUITests.swift in Sources */,
+				AAB0A14A2939EEA000CEBE73 /* OrientiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB0A13B2939EEA000CEBE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB0A1222939EE9F00CEBE73 /* Orienti */;
+			targetProxy = AAB0A13A2939EEA000CEBE73 /* PBXContainerItemProxy */;
+		};
+		AAB0A1452939EEA000CEBE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB0A1222939EE9F00CEBE73 /* Orienti */;
+			targetProxy = AAB0A1442939EEA000CEBE73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAB0A1312939EEA000CEBE73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB0A1322939EEA000CEBE73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB0A14B2939EEA000CEBE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAB0A14C2939EEA000CEBE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB0A14E2939EEA000CEBE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5AZFNCL8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Orienti/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystofkiss.Orienti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB0A14F2939EEA000CEBE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5AZFNCL8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Orienti/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystofkiss.Orienti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAB0A1512939EEA000CEBE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5AZFNCL8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystofkiss.OrientiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orienti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orienti";
+			};
+			name = Debug;
+		};
+		AAB0A1522939EEA000CEBE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5AZFNCL8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystofkiss.OrientiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orienti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orienti";
+			};
+			name = Release;
+		};
+		AAB0A1542939EEA000CEBE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5AZFNCL8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystofkiss.OrientiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orienti;
+			};
+			name = Debug;
+		};
+		AAB0A1552939EEA000CEBE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5AZFNCL8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystofkiss.OrientiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orienti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB0A11E2939EE9F00CEBE73 /* Build configuration list for PBXProject "Orienti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0A14B2939EEA000CEBE73 /* Debug */,
+				AAB0A14C2939EEA000CEBE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB0A14D2939EEA000CEBE73 /* Build configuration list for PBXNativeTarget "Orienti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0A14E2939EEA000CEBE73 /* Debug */,
+				AAB0A14F2939EEA000CEBE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB0A1502939EEA000CEBE73 /* Build configuration list for PBXNativeTarget "OrientiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0A1512939EEA000CEBE73 /* Debug */,
+				AAB0A1522939EEA000CEBE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB0A1532939EEA000CEBE73 /* Build configuration list for PBXNativeTarget "OrientiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0A1542939EEA000CEBE73 /* Debug */,
+				AAB0A1552939EEA000CEBE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAB0A178293A5A6E00CEBE73 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		AAB0A17B293A5AE500CEBE73 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		AAB0A17E293A5AF400CEBE73 /* XCRemoteSwiftPackageReference "swift-error-handler" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Workable/swift-error-handler";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.4;
+			};
+		};
+		AAB0A181293A5B1C00CEBE73 /* XCRemoteSwiftPackageReference "swift-logger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Qase/swift-logger";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAB0A179293A5A6E00CEBE73 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAB0A178293A5A6E00CEBE73 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AAB0A17C293A5AE500CEBE73 /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAB0A17B293A5AE500CEBE73 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+		AAB0A17F293A5AF400CEBE73 /* ErrorHandler */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAB0A17E293A5AF400CEBE73 /* XCRemoteSwiftPackageReference "swift-error-handler" */;
+			productName = ErrorHandler;
+		};
+		AAB0A182293A5B1C00CEBE73 /* Logger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAB0A181293A5B1C00CEBE73 /* XCRemoteSwiftPackageReference "swift-logger" */;
+			productName = Logger;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AAB0A11B2939EE9F00CEBE73 /* Project object */;
+}
