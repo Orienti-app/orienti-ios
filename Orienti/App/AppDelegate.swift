@@ -8,7 +8,6 @@
 import ErrorHandler
 import SnapKit
 import UIKit
-import QROrienti
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
