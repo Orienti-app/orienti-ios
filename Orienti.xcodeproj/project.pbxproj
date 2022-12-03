@@ -42,6 +42,7 @@
 		AAEF43D9293A97F9004FC2E1 /* TrainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43D8293A97F9004FC2E1 /* TrainerController.swift */; };
 		AAEF43DB293A9802004FC2E1 /* TrainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43DA293A9802004FC2E1 /* TrainerView.swift */; };
 		AAEF43DD293A981B004FC2E1 /* TrainerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF43DC293A981B004FC2E1 /* TrainerVM.swift */; };
+		FD8A49CE293BAECD00D93571 /* QROrienti in Frameworks */ = {isa = PBXBuildFile; productRef = FD8A49CD293BAECD00D93571 /* QROrienti */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		AAEF43D8293A97F9004FC2E1 /* TrainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerController.swift; sourceTree = "<group>"; };
 		AAEF43DA293A9802004FC2E1 /* TrainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerView.swift; sourceTree = "<group>"; };
 		AAEF43DC293A981B004FC2E1 /* TrainerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerVM.swift; sourceTree = "<group>"; };
+		FD8A49C7293BABDB00D93571 /* orienti-qr-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "orienti-qr-ios"; path = "../../orienti-qr-ios"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB0A17D293A5AE500CEBE73 /* Resolver in Frameworks */,
+				FD8A49CE293BAECD00D93571 /* QROrienti in Frameworks */,
 				AAB0A180293A5AF400CEBE73 /* ErrorHandler in Frameworks */,
 				AAB0A183293A5B1C00CEBE73 /* Logger in Frameworks */,
 				AAB0A17A293A5A6E00CEBE73 /* SnapKit in Frameworks */,
@@ -137,6 +140,7 @@
 				AAB0A13C2939EEA000CEBE73 /* OrientiTests */,
 				AAB0A1462939EEA000CEBE73 /* OrientiUITests */,
 				AAB0A1242939EE9F00CEBE73 /* Products */,
+				FD8A49C8293BABEE00D93571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +165,7 @@
 				AAB0A167293A57F300CEBE73 /* Resources */,
 				AAB0A16D293A595800CEBE73 /* Helpers */,
 				AAB0A169293A580E00CEBE73 /* Supporting Files */,
+				FD8A49C7293BABDB00D93571 /* orienti-qr-ios */,
 			);
 			path = Orienti;
 			sourceTree = "<group>";
@@ -305,6 +310,13 @@
 			path = Trainer;
 			sourceTree = "<group>";
 		};
+		FD8A49C8293BABEE00D93571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -326,6 +338,7 @@
 				AAB0A17C293A5AE500CEBE73 /* Resolver */,
 				AAB0A17F293A5AF400CEBE73 /* ErrorHandler */,
 				AAB0A182293A5B1C00CEBE73 /* Logger */,
+				FD8A49CD293BAECD00D93571 /* QROrienti */,
 			);
 			productName = Orienti;
 			productReference = AAB0A1232939EE9F00CEBE73 /* Orienti.app */;
@@ -866,6 +879,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AAB0A181293A5B1C00CEBE73 /* XCRemoteSwiftPackageReference "swift-logger" */;
 			productName = Logger;
+		};
+		FD8A49CD293BAECD00D93571 /* QROrienti */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = QROrienti;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
