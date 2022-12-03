@@ -17,8 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Configure global navigation bar colors
         let barAppearance = UINavigationBarAppearance()
         barAppearance.backgroundColor = Colors.primary
+        barAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: Colors.white]
         UINavigationBar.appearance().scrollEdgeAppearance = barAppearance
-        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().tintColor = Colors.white
 
         return true
     }
