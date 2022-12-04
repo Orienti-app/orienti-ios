@@ -128,6 +128,7 @@
 		AAEF43D8293A97F9004FC2E1 /* TrainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerController.swift; sourceTree = "<group>"; };
 		AAEF43DA293A9802004FC2E1 /* TrainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerView.swift; sourceTree = "<group>"; };
 		AAEF43DC293A981B004FC2E1 /* TrainerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerVM.swift; sourceTree = "<group>"; };
+		FD74B330293BBE8300455917 /* orienti-qr-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "orienti-qr-ios"; path = "../orienti-qr-ios"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +192,7 @@
 		AAB0A11A2939EE9F00CEBE73 = {
 			isa = PBXGroup;
 			children = (
+				FD74B330293BBE8300455917 /* orienti-qr-ios */,
 				AAB0A188293A64DC00CEBE73 /* README.md */,
 				AAB0A184293A5DA700CEBE73 /* .gitignore */,
 				AAB0A1252939EE9F00CEBE73 /* Orienti */,
