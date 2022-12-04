@@ -11,6 +11,7 @@ import UIKit
 
 enum Colors {
     static let white = UIColor(hex: "#FFFFFF")!
+    static let black = UIColor(hex: "#000000")!
     static let primary = UIColor(hex: "#F76C1B")!
 }
 
