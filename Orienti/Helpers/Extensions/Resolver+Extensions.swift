@@ -14,13 +14,14 @@ extension Resolver: ResolverRegistering {
         register { RunnerVM() }.scope(.unique)
         register { TrainerVM() }.scope(.unique)
         register { SettingsVM() }.scope(.unique)
-        
+        register { QRVM() }.scope(.unique)
+
         // Services
         register { QRService() }.scope(.application)
-        
+
         // Repositories
         register { UserRepository() }
-        
+
         // Services
         register { CoreDataService() }.scope(.application)
     }

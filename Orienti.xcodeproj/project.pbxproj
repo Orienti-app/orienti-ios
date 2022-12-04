@@ -20,6 +20,9 @@
 		AA9AE191293CA01000CD05B6 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE190293CA01000CD05B6 /* UIViewController+Extensions.swift */; };
 		AA9AE193293CA04C00CD05B6 /* UIResponder+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE192293CA04C00CD05B6 /* UIResponder+Extensions.swift */; };
 		AA9AE195293CA6C900CD05B6 /* LabelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE194293CA6C900CD05B6 /* LabelContainer.swift */; };
+		AA9AE198293CB4B100CD05B6 /* QRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE197293CB4B100CD05B6 /* QRController.swift */; };
+		AA9AE19A293CB4C000CD05B6 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE199293CB4C000CD05B6 /* QRView.swift */; };
+		AA9AE19C293CB4D400CD05B6 /* QRVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE19B293CB4D400CD05B6 /* QRVM.swift */; };
 		AAB0A1272939EE9F00CEBE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A1262939EE9F00CEBE73 /* AppDelegate.swift */; };
 		AAB0A1292939EE9F00CEBE73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A1282939EE9F00CEBE73 /* SceneDelegate.swift */; };
 		AAB0A1302939EEA000CEBE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A12F2939EEA000CEBE73 /* Assets.xcassets */; };
@@ -88,6 +91,9 @@
 		AA9AE190293CA01000CD05B6 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		AA9AE192293CA04C00CD05B6 /* UIResponder+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extensions.swift"; sourceTree = "<group>"; };
 		AA9AE194293CA6C900CD05B6 /* LabelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelContainer.swift; sourceTree = "<group>"; };
+		AA9AE197293CB4B100CD05B6 /* QRController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRController.swift; sourceTree = "<group>"; };
+		AA9AE199293CB4C000CD05B6 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
+		AA9AE19B293CB4D400CD05B6 /* QRVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRVM.swift; sourceTree = "<group>"; };
 		AAB0A1232939EE9F00CEBE73 /* Orienti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orienti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB0A1262939EE9F00CEBE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAB0A1282939EE9F00CEBE73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -172,6 +178,16 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		AA9AE196293CB46C00CD05B6 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				AA9AE197293CB4B100CD05B6 /* QRController.swift */,
+				AA9AE199293CB4C000CD05B6 /* QRView.swift */,
+				AA9AE19B293CB4D400CD05B6 /* QRVM.swift */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
 		AAB0A11A2939EE9F00CEBE73 = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +267,7 @@
 		AAB0A168293A580100CEBE73 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				AA9AE196293CB46C00CD05B6 /* QR */,
 				AAEF43B9293A7B08004FC2E1 /* Role */,
 				AAEF43CB293A921F004FC2E1 /* Runner */,
 				AAEF43D7293A97DB004FC2E1 /* Trainer */,
@@ -521,6 +538,7 @@
 				AAB0A177293A59EA00CEBE73 /* AlertService.swift in Sources */,
 				AA9AE177293BBCAE00CD05B6 /* CoreDataService.swift in Sources */,
 				AA9AE18A293C964200CD05B6 /* ErrorHandler+Extensions.swift in Sources */,
+				AA9AE19C293CB4D400CD05B6 /* QRVM.swift in Sources */,
 				AAEF43C2293A7DD4004FC2E1 /* AppConstants.swift in Sources */,
 				AAB0A16F293A596D00CEBE73 /* Bindable.swift in Sources */,
 				AA9AE18C293C99F100CD05B6 /* BaseField.swift in Sources */,
@@ -538,6 +556,7 @@
 				AAB0A174293A59B600CEBE73 /* String+Extensions.swift in Sources */,
 				AA9AE186293C93E300CD05B6 /* SettingsView.swift in Sources */,
 				AAB0A1292939EE9F00CEBE73 /* SceneDelegate.swift in Sources */,
+				AA9AE198293CB4B100CD05B6 /* QRController.swift in Sources */,
 				AAEF43C0293A7B62004FC2E1 /* BaseView.swift in Sources */,
 				AAEF43C8293A8709004FC2E1 /* UIStackView+Extensions.swift in Sources */,
 				AAEF43C6293A841F004FC2E1 /* UIViewStyle.swift in Sources */,
@@ -548,6 +567,7 @@
 				AA9AE17A293BBD2000CD05B6 /* Model.xcdatamodeld in Sources */,
 				AAEF43DD293A981B004FC2E1 /* TrainerVM.swift in Sources */,
 				AAEF43D9293A97F9004FC2E1 /* TrainerController.swift in Sources */,
+				AA9AE19A293CB4C000CD05B6 /* QRView.swift in Sources */,
 				AA9AE188293C93ED00CD05B6 /* SettingsVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
