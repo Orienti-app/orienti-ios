@@ -58,7 +58,9 @@ final class RunnerController: UIViewController, HasCustomView {
 
             },
             UIAction(title: "Change name".localized) { _ in
-
+                let controller = UINavigationController(rootViewController: SettingsController())
+                controller.modalPresentationStyle = .fullScreen
+                self.present(controller, animated: true)
             },
             UIAction(title: "Change mode".localized) { _ in
                 AppCoordinator.startSelectMode()

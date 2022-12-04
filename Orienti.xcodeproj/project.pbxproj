@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		AA50128B293AB70700CC7349 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA50128A293AB70700CC7349 /* VideoView.swift */; };
+		AA9AE177293BBCAE00CD05B6 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE176293BBCAD00CD05B6 /* CoreDataService.swift */; };
+		AA9AE17A293BBD2000CD05B6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE178293BBD2000CD05B6 /* Model.xcdatamodeld */; };
+		AA9AE17C293BBD3F00CD05B6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE17B293BBD3F00CD05B6 /* User.swift */; };
+		AA9AE181293BC1A100CD05B6 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE180293BC1A100CD05B6 /* UserRepository.swift */; };
+		AA9AE184293C93D900CD05B6 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE183293C93D900CD05B6 /* SettingsController.swift */; };
+		AA9AE186293C93E300CD05B6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE185293C93E300CD05B6 /* SettingsView.swift */; };
+		AA9AE188293C93ED00CD05B6 /* SettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE187293C93ED00CD05B6 /* SettingsVM.swift */; };
+		AA9AE18A293C964200CD05B6 /* ErrorHandler+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE189293C964200CD05B6 /* ErrorHandler+Extensions.swift */; };
+		AA9AE18C293C99F100CD05B6 /* BaseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE18B293C99F100CD05B6 /* BaseField.swift */; };
+		AA9AE191293CA01000CD05B6 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE190293CA01000CD05B6 /* UIViewController+Extensions.swift */; };
+		AA9AE193293CA04C00CD05B6 /* UIResponder+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE192293CA04C00CD05B6 /* UIResponder+Extensions.swift */; };
+		AA9AE195293CA6C900CD05B6 /* LabelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE194293CA6C900CD05B6 /* LabelContainer.swift */; };
 		AAB0A1272939EE9F00CEBE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A1262939EE9F00CEBE73 /* AppDelegate.swift */; };
 		AAB0A1292939EE9F00CEBE73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0A1282939EE9F00CEBE73 /* SceneDelegate.swift */; };
 		AAB0A1302939EEA000CEBE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB0A12F2939EEA000CEBE73 /* Assets.xcassets */; };
@@ -64,6 +76,18 @@
 
 /* Begin PBXFileReference section */
 		AA50128A293AB70700CC7349 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		AA9AE176293BBCAD00CD05B6 /* CoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		AA9AE179293BBD2000CD05B6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		AA9AE17B293BBD3F00CD05B6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AA9AE180293BC1A100CD05B6 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		AA9AE183293C93D900CD05B6 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		AA9AE185293C93E300CD05B6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA9AE187293C93ED00CD05B6 /* SettingsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVM.swift; sourceTree = "<group>"; };
+		AA9AE189293C964200CD05B6 /* ErrorHandler+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ErrorHandler+Extensions.swift"; sourceTree = "<group>"; };
+		AA9AE18B293C99F100CD05B6 /* BaseField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseField.swift; sourceTree = "<group>"; };
+		AA9AE190293CA01000CD05B6 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		AA9AE192293CA04C00CD05B6 /* UIResponder+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extensions.swift"; sourceTree = "<group>"; };
+		AA9AE194293CA6C900CD05B6 /* LabelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelContainer.swift; sourceTree = "<group>"; };
 		AAB0A1232939EE9F00CEBE73 /* Orienti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orienti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB0A1262939EE9F00CEBE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAB0A1282939EE9F00CEBE73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +154,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA9AE17D293BC06000CD05B6 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AA9AE180293BC1A100CD05B6 /* UserRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AA9AE182293C93CB00CD05B6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AA9AE183293C93D900CD05B6 /* SettingsController.swift */,
+				AA9AE185293C93E300CD05B6 /* SettingsView.swift */,
+				AA9AE187293C93ED00CD05B6 /* SettingsVM.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		AAB0A11A2939EE9F00CEBE73 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +201,7 @@
 				AAB0A166293A574300CEBE73 /* App */,
 				AAEF43BE293A7B52004FC2E1 /* Views */,
 				AAEF43D4293A9656004FC2E1 /* Models */,
+				AA9AE17D293BC06000CD05B6 /* Repositories */,
 				AAB0A168293A580100CEBE73 /* Scenes */,
 				AAB0A175293A59DA00CEBE73 /* Services */,
 				AAB0A167293A57F300CEBE73 /* Resources */,
@@ -211,6 +254,7 @@
 				AAEF43B9293A7B08004FC2E1 /* Role */,
 				AAEF43CB293A921F004FC2E1 /* Runner */,
 				AAEF43D7293A97DB004FC2E1 /* Trainer */,
+				AA9AE182293C93CB00CD05B6 /* Settings */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -250,6 +294,9 @@
 				AAEF43C3293A7E01004FC2E1 /* UIColor+Extensions.swift */,
 				AAEF43C7293A8709004FC2E1 /* UIStackView+Extensions.swift */,
 				AAEF43C9293A888C004FC2E1 /* Resolver+Extensions.swift */,
+				AA9AE189293C964200CD05B6 /* ErrorHandler+Extensions.swift */,
+				AA9AE190293CA01000CD05B6 /* UIViewController+Extensions.swift */,
+				AA9AE192293CA04C00CD05B6 /* UIResponder+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -258,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				AAB0A176293A59EA00CEBE73 /* AlertService.swift */,
+				AA9AE176293BBCAD00CD05B6 /* CoreDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -276,6 +324,8 @@
 			children = (
 				AAEF43BF293A7B62004FC2E1 /* BaseView.swift */,
 				AA50128A293AB70700CC7349 /* VideoView.swift */,
+				AA9AE18B293C99F100CD05B6 /* BaseField.swift */,
+				AA9AE194293CA6C900CD05B6 /* LabelContainer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -294,6 +344,8 @@
 			isa = PBXGroup;
 			children = (
 				AAEF43D5293A966B004FC2E1 /* AppMode.swift */,
+				AA9AE178293BBD2000CD05B6 /* Model.xcdatamodeld */,
+				AA9AE17B293BBD3F00CD05B6 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -462,14 +514,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9AE17C293BBD3F00CD05B6 /* User.swift in Sources */,
 				AAEF43D1293A923A004FC2E1 /* RunnerVM.swift in Sources */,
 				AAEF43CF293A9233004FC2E1 /* RunnerView.swift in Sources */,
 				AAB0A1272939EE9F00CEBE73 /* AppDelegate.swift in Sources */,
 				AAB0A177293A59EA00CEBE73 /* AlertService.swift in Sources */,
+				AA9AE177293BBCAE00CD05B6 /* CoreDataService.swift in Sources */,
+				AA9AE18A293C964200CD05B6 /* ErrorHandler+Extensions.swift in Sources */,
 				AAEF43C2293A7DD4004FC2E1 /* AppConstants.swift in Sources */,
 				AAB0A16F293A596D00CEBE73 /* Bindable.swift in Sources */,
+				AA9AE18C293C99F100CD05B6 /* BaseField.swift in Sources */,
+				AA9AE195293CA6C900CD05B6 /* LabelContainer.swift in Sources */,
 				AA50128B293AB70700CC7349 /* VideoView.swift in Sources */,
 				AAEF43D3293A92BF004FC2E1 /* AppCoordinator.swift in Sources */,
+				AA9AE193293CA04C00CD05B6 /* UIResponder+Extensions.swift in Sources */,
+				AA9AE181293BC1A100CD05B6 /* UserRepository.swift in Sources */,
 				AAB0A171293A597200CEBE73 /* HasCustomView.swift in Sources */,
 				AAEF43CA293A888C004FC2E1 /* Resolver+Extensions.swift in Sources */,
 				AAEF43CD293A922B004FC2E1 /* RunnerController.swift in Sources */,
@@ -477,14 +536,19 @@
 				AAEF43DB293A9802004FC2E1 /* TrainerView.swift in Sources */,
 				AAEF43C4293A7E01004FC2E1 /* UIColor+Extensions.swift in Sources */,
 				AAB0A174293A59B600CEBE73 /* String+Extensions.swift in Sources */,
+				AA9AE186293C93E300CD05B6 /* SettingsView.swift in Sources */,
 				AAB0A1292939EE9F00CEBE73 /* SceneDelegate.swift in Sources */,
 				AAEF43C0293A7B62004FC2E1 /* BaseView.swift in Sources */,
 				AAEF43C8293A8709004FC2E1 /* UIStackView+Extensions.swift in Sources */,
 				AAEF43C6293A841F004FC2E1 /* UIViewStyle.swift in Sources */,
 				AAEF43D6293A966B004FC2E1 /* AppMode.swift in Sources */,
 				AAEF43BB293A7B19004FC2E1 /* RoleView.swift in Sources */,
+				AA9AE184293C93D900CD05B6 /* SettingsController.swift in Sources */,
+				AA9AE191293CA01000CD05B6 /* UIViewController+Extensions.swift in Sources */,
+				AA9AE17A293BBD2000CD05B6 /* Model.xcdatamodeld in Sources */,
 				AAEF43DD293A981B004FC2E1 /* TrainerVM.swift in Sources */,
 				AAEF43D9293A97F9004FC2E1 /* TrainerController.swift in Sources */,
+				AA9AE188293C93ED00CD05B6 /* SettingsVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -893,6 +957,19 @@
 			productName = QROrienti;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		AA9AE178293BBD2000CD05B6 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA9AE179293BBD2000CD05B6 /* Model.xcdatamodel */,
+			);
+			currentVersion = AA9AE179293BBD2000CD05B6 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AAB0A11B2939EE9F00CEBE73 /* Project object */;
 }
